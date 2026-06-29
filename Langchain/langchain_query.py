@@ -25,4 +25,4 @@ scores = cosine_similarity([query_embeddings], doc_embeddings)[0]
 
 index, score = sorted(enumerate(scores), key=lambda x: x[1])[-1]
 
-print(f"The most similar document is: {document[index]} with a similarity score of {score}")
+print(f"The most similar document is - {document[index]} with a similarity score = {score}")
